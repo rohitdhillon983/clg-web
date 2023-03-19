@@ -6,6 +6,89 @@
 body{
     background-color: #EAEDED;
 }
+#top1{
+/* border: 2px red solid; */
+width: 1503px;
+height: 110px;
+background-image: url( Untitled-1.jpg );
+background-size:1503px;
+display: flex;
+justify-content: center;   
+}
+#top{
+width: 1503px;
+height: 20px;
+background-color: #d00000;
+color: aliceblue;
+font-family: arial;
+padding-left:20px;
+padding-top: 3px;
+}
+#top1 img{
+margin-top: 15px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+marquee{
+font-family: arial;
+background-color: #6e71cc58;
+font-weight: 1000;
+width: 1503px;
+}
+.hbox{
+/* border: 3px black solid; */
+width: 1503px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.658);
+display: flex;
+justify-content: center;
+gap: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+/* box-shadow: 0px 5px 10px 5px black; */
+
+}
+#hmain .hbox a{
+/* border: 1px solid red; */
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+text-decoration: none;
+padding: 5px 20px;
+transition: 0.5s;
+background:rgba(0, 0, 0, 0.779);
+border-radius: 40px;
+box-shadow: inset 0 0 10px rgba(255,255,255, 0.358);
+}
+#hmain .hbox a:hover{
+border-radius: 40px;
+font-weight: bold;
+background:linear-gradient(120deg,rgb(0, 81, 255),rgb(195, 0, 255));
+}
+#hmain .hbox a i{
+padding-right: 10px;
+color: #00bcd4;
+}
+#name{
+margin-left: 110px;
+margin-right: 110px;
+}
+#name1{
+font-size: 60px;
+text-align: center;
+color: #f0c740 ;
+font-family: arial;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+#name2{
+font-size: 30px;
+text-align: center;
+color: #f0c740;
+font-family: arial;
+margin-top: 0px;
+}
 h1{
     text-align: center;
     font-family: 'Bungee Spice', cursive;

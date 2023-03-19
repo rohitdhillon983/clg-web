@@ -14,7 +14,20 @@ body::-webkit-scrollbar-thumb{
 body::-webkit-scrollbar-corner{
     background: linear-gradient(rgb(174, 255, 0),rgb(43, 255, 0));
 }
-
+@media (max-width:770px){
+    #box1{
+        position: relative;
+        /* border: 3px solid red; */
+        width: 100%;
+        height: 890px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 30px;
+        background: linear-gradient(#00d9ff,#0b1c1b,#69b6ff);
+        /* background-image: url( aaabbb.webp);
+        background-size:1503px 469px; */
+    }
+}
 #top1{
     /* border: 2px red solid; */
     width: 1503px;
@@ -39,7 +52,7 @@ body::-webkit-scrollbar-corner{
     margin-right: 20px;
     
 }
-.topmarquee{
+marquee{
     font-family: arial;
     background-color: #6e71cc58;
     font-weight: 1000;
@@ -91,7 +104,7 @@ body::-webkit-scrollbar-corner{
     margin-left: 110px;
     margin-right: 110px;
 }
-#name1{
+#name h1{
     font-size: 60px;
     text-align: center;
     color: #f0c740 ;
@@ -99,7 +112,7 @@ body::-webkit-scrollbar-corner{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-#name2{
+#name h3{
     font-size: 30px;
     text-align: center;
     color: #f0c740;
@@ -107,6 +120,7 @@ body::-webkit-scrollbar-corner{
     margin-top: 0px;
 }
 #box1{
+    position: relative;
     /* border: 3px solid red; */
     width: 1500px ;
     height: 890px;
